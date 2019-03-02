@@ -23,3 +23,31 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 ## What's new
 
 - 2019/03/01　レポジトリ作成
+
+## for lab members
+
+### githubの使い方
+
+まずは最も基本的なところになれましょう。
+
+- clone : リモートレポジトリをローカルにクローンする。
+- fetch or pull : ローカルを最新版に
+- commit : 変更箇所をステージにあげる
+- push : リモートに変更を反映する。
+
+"commit -> push"の流れを押さえてください。
+
+
+### 具体的な話
+
+- ファイル一つや一日の終りなど、切のいいところでコードをあげる。
+- **作業は必ずローカルでやってpush。**
+- やり方は、github Desktopが最初はおすすめ。atom上でも出来る。atomにvscodeもいいらしいが使ったことがなくわからず。
+- [Hydrogen](https://github.com/nteract/hydrogen#how-it-works)というpackageをatomに入れるとjupyterもうごく。ややめんどくさいが。
+- ただ、atomはパッケージをどんどん入れるとどんどん重くなるので注意。
+- CLI環境では`git`コマンドを使ってください。(see links below.)
+- branchの話やfork, pull request(いわゆるプルリク)はおいおい。
+
+#### 参考資料
+
+- [今日からはじめるGitHub 〜 初心者がGitをインストールして、プルリクできるようになるまでを解説](https://employment.en-japan.com/engineerhub/entry/2017/01/31/110000)
