@@ -23,4 +23,3 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 ## What's new
 
 - 2019/03/01　レポジトリ作成
-test
