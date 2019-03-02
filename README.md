@@ -32,16 +32,18 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 
 - clone : リモートレポジトリをローカルにクローンする。
 - fetch or pull : ローカルを最新版に
-- commit : 変更箇所をステージにあげる
+- add : ステージに変更箇所をあげる。allでも出来るし、変えたいファイル岳も帰れる。
+- commit : ステージに上った変更箇所を記録する。
 - push : リモートに変更を反映する。
 
-"commit -> push"の流れを押さえてください。
+"add -> commit -> push"の流れを押さえてください。
 
 
 ### 具体的な話
 
 - ファイル一つや一日の終りなど、切のいいところでコードをあげる。
 - **作業は必ずローカルでやってpush。**
+- テストデータなどは`.gitignore`に記録して、リモートにあげないようにする。
 - やり方は、github Desktopが最初はおすすめ。atom上でも出来る。atomにvscodeもいいらしいが使ったことがなくわからず。
 - [Hydrogen](https://github.com/nteract/hydrogen#how-it-works)というpackageをatomに入れるとjupyterもうごく。ややめんどくさいが。
 - ただ、atomはパッケージをどんどん入れるとどんどん重くなるので注意。
