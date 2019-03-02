@@ -52,4 +52,7 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 
 #### 参考資料
 
+- [今さら聞けない！GitHubの使い方【超初心者向け】](https://techacademy.jp/magazine/6235)
 - [今日からはじめるGitHub 〜 初心者がGitをインストールして、プルリクできるようになるまでを解説](https://employment.en-japan.com/engineerhub/entry/2017/01/31/110000)
+
+他にも、書籍やいろんなサイトがあるので、わからないことがあれば調べてみてください。
