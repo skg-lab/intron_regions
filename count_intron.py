@@ -41,6 +41,5 @@ df_count_groupby['symbol'] = df_count_groupby.index
 df_count_groupby['rpkm'] = df_count_groupby['n_overlap'] / (df_count_groupby['len'] / 1000) * (bam_count / 1000000)
 
 
-
 df_count_groupby[['symbol', 'rpkm']].to_csv(f_out_prefix+'RPKM.txt', index=None, header=None, sep='\t')
 df_count_groupby[['symbol', 'n_overlap']].to_csv(f_out_prefix+'count.txt', index=None, header=None, sep='\t')
