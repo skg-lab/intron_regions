@@ -23,10 +23,3 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 ## What's new
 
 - 2019/03/01　レポジトリ作成
-<<<<<<< HEAD
-=======
-
-
-それしらんかってん。
-あかん
->>>>>>> bed4cd1e8b0f012eebd47d2ac399c91f49c4bb92
