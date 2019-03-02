@@ -10,6 +10,12 @@ intron_count.ipynb
 
 ### 2. Count reads in the intron bed.
 
+#### requirements
+
+- [pybedtools](https://daler.github.io/pybedtools/)
+
+#### usage
+
 ```
 python count_intron.py intron.bed bam output-prefix
 ```
