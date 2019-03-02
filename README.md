@@ -44,7 +44,7 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 - ファイル一つや一日の終りなど、切のいいところでコードをあげる。
 - **作業は必ずローカルでやってpush。**
 - テストデータなどは`.gitignore`に記録して、リモートにあげないようにする。
-- やり方は、github Desktopが最初はおすすめ。atom上でも出来る。atomにvscodeもいいらしいが使ったことがなくわからず。
+- やり方は、github Desktopが最初はおすすめ。atom上でも出来る。vscodeもいいらしいが使ったことがなくわからず。
 - [Hydrogen](https://github.com/nteract/hydrogen#how-it-works)というpackageをatomに入れるとjupyterもうごく。ややめんどくさいが。
 - ただ、atomはパッケージをどんどん入れるとどんどん重くなるので注意。
 - CLI環境では`git`コマンドを使ってください。(see links below.)
