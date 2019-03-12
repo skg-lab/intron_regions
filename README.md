@@ -39,12 +39,13 @@ python count_intron.py ref/mm10_genes_intron.bed bam/84_DP_RamDA_test.accept.sor
 
 - clone : リモートレポジトリをローカルにクローンする。
 - fetch or pull : ローカルを最新版に
-- add : ステージに変更箇所をあげる。allでも出来るし、変えたいファイル岳も帰れる。
+- add : ステージに変更箇所をあげる。allでも出来るし、変えたいファイルだけでも変えられる。
 - commit : ステージに上った変更箇所を記録する。
 - push : リモートに変更を反映する。
 
 "add -> commit -> push"の流れを押さえてください。
 
+**自分と関係のあるrepositoryは必ずwatchしましょう！**
 
 ### 具体的な話
 

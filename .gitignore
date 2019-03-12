@@ -1,3 +1,4 @@
 ref/gencode.v29.annotation.gtf.gz
 ref/gencode.vM20.annotation.gtf.gz
 .ipynb_checkpoints*
+.DS_Store
